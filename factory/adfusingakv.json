@@ -1,0 +1,9 @@
+{
+	"name": "adfusingakv",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7de94943-cf41-4d93-a797-7c629ed40498",
+		"tenantId": "9b415834-803a-4da0-afdc-fe6b1d52d649"
+	}
+}
