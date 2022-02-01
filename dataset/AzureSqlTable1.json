@@ -45,7 +45,7 @@
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "Cameleon_Table"
+			"table": "Cameleon_Table_Cross"
 		}
 	},
 	"type": "Microsoft.DataFactory/factories/datasets"
