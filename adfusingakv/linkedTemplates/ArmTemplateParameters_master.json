@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfusingakv"
+		},
+		"synapsekeyvault-WorkspaceDefaultSqlServer_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage1_properties_typeProperties_connectionString_secretName": {
+			"value": "blobconnec"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://chestnut.vault.azure.net/"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_connectionString_secretName": {
+			"value": "sqlconnec"
+		},
+		"linkedService_df_properties_typeProperties_connectionString_secretName": {
+			"value": "sqlconnec"
+		},
+		"linkedService_df1_properties_typeProperties_connectionString_secretName": {
+			"value": "blobconnec"
+		},
+		"linkedService_df2_properties_typeProperties_connectionString_secretName": {
+			"value": "blobconnec"
+		},
+		"synapsekeyvault-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://stdatacoedata001.dfs.core.windows.net"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
